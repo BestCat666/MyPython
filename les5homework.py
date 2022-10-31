@@ -10,3 +10,9 @@ print(n + 1)
 s = int(input())
 x = s // 6
 print(x, x*4, x)
+# КАНЦЕЛЯРСКИЕ ТОВАРЫ https://acmp.ru/asp/do/index.asp?main=task&id_course=1&id_section=1&id_topic=28&id_problem=148
+# x карандаш = 3руб, y ручки, z флом
+# y = x(3) + 2  y = z - 7
+# y = 5         5 = z - 7   z = 12
+x, y, z = map(int, input().split())
+print(x*3 + y*5 + z*12)
